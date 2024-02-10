@@ -1,0 +1,68 @@
+body {
+    font-family: Gill Sans , sans-serif;
+    background-image: url("wallpaper.jpg");
+  
+    background-size: auto;
+    background-position:revert-layer;
+
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+#task-input {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#task-name {
+    padding: 5px;
+    width: 900px;
+    height: 30px;
+}
+
+button {
+    padding: 8px 8px;
+    margin-left: 10px;
+  font-size: 18px;
+ background: linear-gradient(to right,yellow,sandybrown); 
+border-style: solid;
+    cursor: pointer;
+
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    
+}
+
+th {
+    background: #14C9CB;
+
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
